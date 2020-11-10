@@ -30,7 +30,7 @@ function TodoList() {
 
     // show/hide Modify Modal
     const handleShowModifyModal = (modifyType, modifyValue, index) => {
-        // console.log("handleShowModifyModal -> itemIndex", itemIndex)
+        console.log("handleShowModifyModal -> index", index)
         console.log("handleShowModifyModal -> modifyValue", modifyValue)
         setIsShowModifyModal(true);
         if (modifyType === 'create') {

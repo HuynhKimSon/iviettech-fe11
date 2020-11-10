@@ -33,7 +33,9 @@ function ModifyListModal(props) {
                             .required('Mời bạn nhập mô tả công việc.')
                             .max(100, 'Nội dung công việc không được quá 100 kí tự.')
                     })}
-                    onSubmit={(values) => handleSubmitForm(values, modalData.type, modalData.index)}>
+                    onSubmit={(values) =>{
+                    console.log(values);
+                    handleSubmitForm(values, modalData.type, modalData.index)}}>
                     <Form>
                         <Modal.Header closeButton>
                             <Modal.Title>
