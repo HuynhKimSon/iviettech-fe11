@@ -1,5 +1,5 @@
 import {
-    // GET_TASK_LIST_SUCCESS,
+    GET_TASK_LIST_SUCCESS,
     // GET_COMPLETE_LIST_SUCCESS,
     CREATE_TASK,
     EDIT_TASK,
@@ -42,14 +42,14 @@ const initialState = {
 
 function todoListReducer(state = initialState, action) {
     switch (action.type) {
-        // case GET_TASK_LIST_SUCCESS: {
-        //     return {
-        //         ...state,
-        //         todoListData: [
-        //             ...action.payload,
-        //         ],
-        //     }
-        // }
+        case GET_TASK_LIST_SUCCESS: {
+            return {
+                ...state,
+                todoListData: [
+                    ...action.payload,
+                ],
+            }
+        }
         // case GET_COMPLETE_LIST_SUCCESS: {
         //     return {
         //         ...state,

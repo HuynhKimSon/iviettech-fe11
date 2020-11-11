@@ -1,0 +1,62 @@
+.PageTodoList{
+    background-color: #60635f ;
+    min-height: 657px;
+}
+.form-context , .form-todolist {
+    display: flex;
+    justify-content: center;
+}
+.title , .description {
+    margin-top: 10px;
+    width: 400px;
+}
+.ant-form-item-label{
+    font-weight: 500;
+}
+.ant-form-item-explain-error{
+    color: red;
+}
+.btn-submit{
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    background-color: #3483eb;
+    color: white;
+}
+/* SHOW TASK */
+.show-task{
+    display: flex;
+    justify-content: center;
+    margin: 15px 285px 0px;
+    border-top: 1px solid white;
+}
+.item-task{
+    width: 800px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.item-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #fdc66e;
+}
+.btn-delete{
+    margin: 5px 10px 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #f54242;
+    color: white;
+}
+.btn-show{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color:  #3483eb;
+    color: white;
+}
